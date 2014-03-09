@@ -1,0 +1,52 @@
+/* === MEDIA QUERIES  === */
+
+
+
+@media screen and (max-width: 1100px){
+	.logo{width:100%;text-align:center;}
+	.logo img{display:inherit;}
+	.nav {float: left;width: 100%;padding: 5px 0px 0px 0px;margin: 0px;max-width:none;display:inherit;text-align:center;}
+	.sub-menu{text-align:left;}
+}
+
+@media screen and (max-width: 1050px){
+	.footerwidget_area, .footer_widget_container,.footer{width:780px;}
+	.maincontainer, .largecontainer{width:800px;}
+	.container{width:760px;}
+	.mainpage_title h1{font-size:14pt;}
+	
+}
+
+@media screen and (max-width: 750px){
+	.footerwidget_area, .footer_widget_container,.footer{width:580px;} 
+	.maincontainer, .largecontainer{width:600px;}
+	.container{width:560px;}
+	.contentarea, .sidebararea{width:100%; float: left;}
+	.thirdwidth{width:46%;}
+	.nav {text-align:left;}
+	.menu{display:none;}     
+	.mobile-menu{display:block; margin-top:100px;}
+	 nav{margin:0; background:none;}     
+	.menu li{display:block; margin:0;}     
+	.menu li a {background:#ffffff; color:#797979; border-top:1px solid #e0e0e0; border-left:3px solid #ffffff;}     
+	.menu li a:hover, .menu li:hover > a{ background:#f0f0f0; color:#797979;border-left:3px solid #FF7200; border-radius:0px;}     
+	/*Niveau 2 et 3 - Même largeur pour tous les blocks*/
+	.menu ul {display:block;
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;}
+	.menu ul ul {left:0;}
+}
+@media screen and (max-width:610px){
+	.logo img{width:100%;height:auto;}
+	.footerwidget_area, .footer_widget_container,.footer{width:300px;}
+	.maincontainer, .largecontainer{width:320px;}
+	.container{width:280px;}
+	.footer_widget_container > .widget{width:98%;}
+	.halfwidth, .thirdwidth{width:100%;padding:0px;}
+	.callbacks_nav {top: 47%;}
+	.blockquotelarge img {float:none; margin: 0 auto;}
+	.glyph-right{background: url("../images/glyph-right-min.png") no-repeat center left;}
+	.glyph-left{ background: url("../images/glyph-left-min.png") no-repeat center right;}
+}
